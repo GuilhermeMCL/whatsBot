@@ -1,0 +1,28 @@
+{
+  "name": "whatsbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/multipart": "^9.0.3",
+    "@prisma/client": "^6.5.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.2",
+    "openai": "^4.89.1",
+    "puppeteer": "^24.4.0",
+    "puppeteer-core": "^24.4.0",
+    "venom-bot": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "prisma": "^6.5.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
